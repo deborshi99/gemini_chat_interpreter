@@ -34,6 +34,10 @@ Chat Interpreter is an interactive chatbot application that leverages gemini-fla
     ```sh
     docker build -t chainlit_ui -f dockerfiles/dockerfile.chainlitui .
     ```
+    And then to run,
+    ```sh
+    docker run -i -p 8000:8000 chainlitui
+    ```
 
 ## Usage
 
