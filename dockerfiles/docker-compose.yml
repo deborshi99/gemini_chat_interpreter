@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  code_compiler:
+    build:
+      context: .
+      dockerfile: dockerfiles/dockerfile.compler
+    ports:
+      - "5000:5000"
+
+  chainlit_ui:
+    build:
+      context: .
+      dockerfile: dockerfiles/dockerfile.chainlitui
+    ports:
+      - "8000:8000"
+    depends_on:
+      - code_compiler
+    environment:
+      - COMPILER_URL=http://code_compiler:5000/execute

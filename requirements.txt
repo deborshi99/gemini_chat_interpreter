@@ -1,0 +1,11 @@
+chainlit
+python-dotenv
+fastapi
+uvicorn
+google-generativeai
+chromadb
+docker
+pandas
+matplotlib
+seaborn 
+pillow
