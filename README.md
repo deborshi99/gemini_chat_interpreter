@@ -4,7 +4,7 @@ Interactive chatbot using gemini-flash-2.0 and Chainlit.
 
 ## Introduction
 
-Chat Interpreter is an interactive chatbot application that leverages GPT-3.5 Turbo and Chainlit to provide advanced conversational capabilities. The project is designed to interpret code, handle general conversations, and provide insightful responses based on user queries.
+Chat Interpreter is an interactive chatbot application that leverages gemini-flash-2.0 and Chainlit to provide advanced conversational capabilities. The project is designed to interpret code, handle general conversations, and provide insightful responses based on user queries.
 
 **Note:** The application is not fully functional at the moment. Proper user sessions and code generation (including training a model to avoid generating malicious code) are still under development.
 
