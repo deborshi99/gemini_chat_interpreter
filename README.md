@@ -1,6 +1,6 @@
 # Chat Interpreter
 
-Interactive chatbot using GPT-3.5 Turbo and Chainlit.
+Interactive chatbot using gemini-flash-2.0 and Chainlit.
 
 ## Introduction
 
