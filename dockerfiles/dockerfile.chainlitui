@@ -12,4 +12,8 @@ COPY ../.env /app/.env
 
 WORKDIR /app/src
 
+# Add environment variables
+ENV GEMINI_API_KEY=AIzaSyBnFlgDC2gwvwyvdK2Z3a1NryynJccBCiI
+ENV COMPILER_URL=http://localhost:5000/execute
+
 CMD ["chainlit", "run", "app.py", "--host", "0.0.0.0", "--port", "8000"]
